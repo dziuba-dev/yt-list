@@ -1,0 +1,13 @@
+@import 'fonts.css';
+@import 'buttons.css';
+@import 'imports.css';
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+}

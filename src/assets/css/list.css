@@ -1,0 +1,36 @@
+.list-container {
+    background: var(--white-theme);
+    margin: 5px 15px 5px 0;
+    padding: 35px;
+    width: 215px;
+    height: 350px;
+}
+
+.position-flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.channel-logo {
+    border-radius: 50%;
+    border: 1px solid var(--silver-theme);
+}
+
+a {
+    color: var(--black-theme);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+}
+

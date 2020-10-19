@@ -1,0 +1,66 @@
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+.button {
+    -moz-appearance: none;
+    -ms-text-size-adjust: 100%;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: var(--black-theme);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 21px;
+    line-height: 40px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 13px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+    background: var(--orange-theme);
+    color: var(--white-theme);
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button:active {
+    background: var(--light-orange-theme);
+}
+
+.button:focus,
+.button:hover {
+    background: var(--dark-orange-theme);
+}
